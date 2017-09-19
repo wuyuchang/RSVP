@@ -22,7 +22,7 @@ export class AppComponent implements OnInit {
     this._resizeFn(null);
   }
 
-  navToggleHandler(e: boolean) {
+  navToggledHandler(e: boolean) {
     this.navOpen = e;
   }
 
